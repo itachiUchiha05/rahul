@@ -99,5 +99,5 @@ test.get('/testdelete/:id',(req,res) =>{
 })
 
 test.listen('2001',(req,res) =>{
-    console.log('ok nigga')
+    console.log('connection okay')
 })
