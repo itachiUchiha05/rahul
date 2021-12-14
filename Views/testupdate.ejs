@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="/testupdate/<%= data._id%>">
+            eno : <input type="text" name="eno" value="<%= data.eno%>"/>
+            fname : <input type="text" name="fname" value="<%= data.fname%>" />
+            Image : <input type="file" name="image" value="<%= data.image%>" />
+            <input type="submit" /> 
+        </form>
+    </body>
+</html>
